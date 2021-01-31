@@ -1,10 +1,10 @@
-puts 'Enter source address of image'
-puts '# for eg: Downloads/trees.jpg'
+puts 'Enter path of image'
+puts '#%PATH insert ele'
 background =gets.chomp
 if File.exist?(background) 
-	file_name = '/etc/default/grub'
+	file_name = 'EDIT TO GRUB PATH ON KALI/UBUNTU 2020.3 GRUB BG PNG'
 	
-	cmd = `cp #{background} /etc/default`
+	cmd = `cp #{background} /etc/default(outdate olub stackowerflowunkudu)`
 	
 	puts 'Successfully copied file'
 	f = File.open(file_name,'r')
@@ -22,6 +22,9 @@ if File.exist?(background)
 
 	cmd = `update-grub`
 else
-	puts "Couldn't find the image. Try again"
+	puts "Couldn't find the image. Exiting..."
 end
-
+alternative olaraq wait yazib tezeden loop etmek de olar
+	like this
+loop (26 ci setire)
+	
