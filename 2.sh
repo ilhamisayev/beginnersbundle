@@ -1,6 +1,8 @@
 #!/bin/bash/
 
- msg="enter the path exp:/home/PATH then press ctrl+x then y and enter.Get Ready Opening nano in ${1}..."
+ msg="enter the path exp:/home/PATH then press ctrl+x then y and enter.Get Ready Opening nano in ${1}..." 
+ #nano meselesi cancelled update olunmalidi basqa bir sey edecem 
+ #sort elemisem pngleri onsuz select path problemi var read= input u cevirmek lazimdi path a
         clear
         echo -n "$msg"
         l=${#msg}
@@ -32,3 +34,5 @@ cmd= sudo mv
 echo "success"
 exit
 fi
+
+#isleyir amma functional deyil hele ki yene path meselesi var...
